@@ -30,7 +30,7 @@ jobs:
           python -m pytest -v tests
       
       - name: Pytest coverage comment
-        uses: opavon/pytest-coverage-comment@main
+        uses: opavon/week1-devops@main
         with:
           pytest-coverage-path: ./pytest-coverage.txt
           junitxml-path: ./pytest.xml
